@@ -29,3 +29,19 @@ This is why it's possible to generate 512 × 512 images so quickly, even on 16GB
 
 Putting it all together, let's now take a closer look at how the model works in inference by illustrating the logical flow.
 ![stb](https://user-images.githubusercontent.com/114976742/210177478-271fd9a6-0f64-4371-9cce-5de5c08073a0.png)
+
+
+# Art Generation Using Stable Diffusion
+
+* Extract Stable Diffusion WebUi - [Stable Diffusion Web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+* Download Stable Diffusion Model (Pre Trained Weights) - [HuggingFace](https://huggingface.co/runwayml/stable-diffusion-v1-5#:~:text=v1%2D5%2Dpruned%2Demaonly.ckpt%20%2D%204.27GB%2C%20ema%2Donly%20weight.%20uses%20less%20VRAM%20%2D%20suitable%20for%20inference) 
+
+* Running the WebUI on Local Host
+
+* Generating the Image 
+## Before
+![sdd](https://user-images.githubusercontent.com/114976742/210178810-75b0555e-1d75-47b9-a7b0-ef0d533b069c.jpg)
+
+## After 
+![sd_art](https://user-images.githubusercontent.com/114976742/210178822-1f1134d1-5e48-40f5-9b70-d8348a2ae9a2.png)
